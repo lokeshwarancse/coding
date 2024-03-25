@@ -13,7 +13,7 @@ CREATE TABLE Dog (
     name VARCHAR(255),
     age INT,
     breed VARCHAR(255),
-    dog_breed VARCHAR(255)
+    dogBreed VARCHAR(255)
 );
 
 CREATE TABLE Cat (
@@ -21,7 +21,7 @@ CREATE TABLE Cat (
     name VARCHAR(255),
     age INT,
     breed VARCHAR(255),
-    cat_color VARCHAR(255)
+    Catcolor VARCHAR(255)
 );
 
 INSERT INTO Pet (name, age, breed) VALUES
@@ -30,12 +30,12 @@ INSERT INTO Pet (name, age, breed) VALUES
 ('Charlie', 4, 'Beagle'),
 ('Lucy', 5, 'Poodle');
 
-INSERT INTO Dog (name, age, breed, dog_breed) VALUES
+INSERT INTO Dog (name, age, breed, dogBreed) VALUES
 ('Buddy', 3, 'Labrador Retriever', 'Golden Labrador'),
 ('Max', 2, 'German Shepherd', 'Long-haired German Shepherd'),
 ('Rex', 4, 'Siberian Husky', 'Alaskan Husky');
 
-INSERT INTO Cat (name, age, breed, cat_color) VALUES
+INSERT INTO Cat (name, age, breed, Catcolor) VALUES
 ('Whiskers', 2, 'Persian', 'White'),
 ('Mittens', 3, 'Siamese', 'Brown'),
 ('Shadow', 4, 'Maine Coon', 'Gray');
